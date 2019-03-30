@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-html, body, head, p {
+html, body, head, p, h1 {
     padding: 0;
     margin: 0;
     border: 0;
@@ -8,11 +8,20 @@ html, body, head, p {
     width: 80px;
     height: 100vh;
     background-color: rgb(200, 0, 0);
+    position: fixed;
 }
 .icon {
     height: 80px;
     width: 80px;
+    background-color:green;
+    border-bottom: 1px ridge white;
 }
 .webpage {
-    box-shadow: 5px 5px;
+    -webkit-box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
+    box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
+    position: relative;
+    background-color: white;
+    margin: 0 0 0 80px;
+    height: 100vh;
 }
