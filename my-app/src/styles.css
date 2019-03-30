@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, head, p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.menu {
+    width: 80px;
+    height: 100vh;
+    background-color: rgb(200, 0, 0);
+}
+.icon {
+    height: 80px;
+    width: 80px;
+}
+.webpage {
+    box-shadow: 5px 5px;
+}
