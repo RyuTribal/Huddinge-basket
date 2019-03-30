@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, head, p, h1 {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.menu {
+    width: 60px;
+    height: 100vh;
+    background-color: rgb(184, 35, 41);
+    position: fixed;
+}
+.menu-container {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+}
+.icon {
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+    transition-duration: 0.5s;
+    
+}
+
+.icon a{
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+.icon:hover {
+    background-color: red;
+    transition-duration: 0.5s;
+}
+.iconselected {
+    background-color: rgb(140, 35, 41);
+}
+.iconselected:hover{
+    background-color: rgb(140, 35, 41);
+    transition-duration: unset;
+}
+.logout {
+    position: absolute;
+    bottom: 0;
+}
+.webpage {
+    -webkit-box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
+    box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
+    position: relative;
+    background-color: white;
+    margin: 0 0 0 60px;
+    height: 100vh;
+}
