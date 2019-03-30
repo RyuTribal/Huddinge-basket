@@ -5,16 +5,47 @@ html, body, head, p, h1 {
     border: 0;
 }
 .menu {
-    width: 80px;
+    width: 60px;
     height: 100vh;
-    background-color: rgb(200, 0, 0);
+    background-color: rgb(184, 35, 41);
     position: fixed;
 }
+.menu-container {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+}
 .icon {
-    height: 80px;
-    width: 80px;
-    background-color:green;
-    border-bottom: 1px ridge white;
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+    transition-duration: 0.5s;
+    
+}
+
+.icon a{
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+.icon:hover {
+    background-color: red;
+    transition-duration: 0.5s;
+}
+.iconselected {
+    background-color: rgb(140, 35, 41);
+}
+.iconselected:hover{
+    background-color: rgb(140, 35, 41);
+    transition-duration: unset;
+}
+.logout {
+    position: absolute;
+    bottom: 0;
 }
 .webpage {
     -webkit-box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
@@ -22,6 +53,6 @@ html, body, head, p, h1 {
     box-shadow: -9px -2px 16px 0px rgba(0,0,0,0.26);
     position: relative;
     background-color: white;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 60px;
     height: 100vh;
 }

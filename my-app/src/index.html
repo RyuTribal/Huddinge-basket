@@ -7,12 +7,21 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.css">
+  <script src="assets/vendor/jquery/jquery.js"></script>
+  <script src="assets/js/main.js"></script>
 </head>
 <body>
   <div class="menu">
-    <div class="icon"><i class="fas fa-film"></i></div>
-    <div class="icon"></div>
-    <div class="icon"></div>
+    <ul class="menu-container">
+        <li class="icon iconselected"><a href="#"><i class="fas fa-basketball-ball"></i></a></li>
+      <li class="icon"><a href="#"><i class="fas fa-user-alt"></i></a></li>
+      <li class="icon"><a href="#"><i class="fas fa-users"></i></a></li>
+      <li class="icon"><a href="#"><i class="far fa-id-card"></i></a></li>
+      <li class="icon"><a href="#"><i class="fas fa-film"></i></a></li>
+      <li class="icon logout"><a href="#"><i class="fas fa-sign-out-alt fa-flip-horizontal"></i></a></li>
+    </ul>
   </div>
   <div class="webpage"><app-root></app-root></div>
 </body>
