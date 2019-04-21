@@ -1,0 +1,45 @@
+.start-page-background{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../../assets/img/basketball.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+}
+
+.content-wrap{
+    margin-top: 20%;
+    display: inline-block;
+}
+
+.logo-wrap{
+    margin: 0 auto;
+    color: white;
+
+}
+.slogan-wrap{
+    margin: 0 auto;
+    color: white;
+    margin-top: 15%;
+}
+
+.divider{
+    width:50px;
+    height:auto;
+    display:inline-block;
+}
+
+.buttons-wrap{
+    margin-top: 15%;
+}
+
+.buttons-wrap button{
+    border-radius: 25px;
+    width: 200px;
+    background-color: rgb(184, 35, 41);
+}
+
+.buttons-wrap button:hover{
+    background-color: red;
+}
